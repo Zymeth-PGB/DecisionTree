@@ -19,7 +19,7 @@ docker images
 docker run --name my-notebook -p 8888:8888 my-image
 ```
 
-5. Khi chạy xong lệnh container sẽ được khởi chạy ngay lập tức và chỉ cần copy địa chỉ localhost dán vào web browser để truy cập. Thông thường địa chỉ sẽ nằm sau dòng "Or copy and paste one of these URLs:" va có thường có dạng là "http://127.0.0.1:8888/tree?...".
+5. Khi chạy xong lệnh container sẽ được khởi chạy ngay lập tức và chỉ cần copy địa chỉ localhost dán vào web browser để truy cập. Thông thường địa chỉ sẽ nằm sau dòng "Or copy and paste one of these URLs:" và thường có dạng là "http://127.0.0.1:8888/tree?...".
    
 6. Sau khi build thành công để kiểm tra xem có đang khởi chạy container đó không sử dụng lệnh.
 ```
